@@ -2534,7 +2534,7 @@ a{
   }
   .offcanvas__widget h4 {
     font-size: 22px;
-    color: #2caae2;;
+    color: #2caae2;
   }
 
   .header__menu {
@@ -2632,7 +2632,7 @@ a{
     left: -300px;
     width: 300px;
     height: 100%;
-    background: #2caae2;
+    background: #6b3f98;
     padding: 50px 20px 30px 30px;
     display: block;
     z-index: 99;

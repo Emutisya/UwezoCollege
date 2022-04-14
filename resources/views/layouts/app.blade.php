@@ -194,7 +194,8 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="#"><img width="60" height="60" class="ml-2" src="{{ asset('images/mic_icon_only.png') }}"
+            <a href="#">
+                <img width="60" height="60" class="ml-2" src="{{ asset('images/logo2.png') }}"
                     alt="" /></a>
         </div>
         <div id="mobile-menu-wrap"></div>
