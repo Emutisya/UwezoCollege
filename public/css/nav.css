@@ -156,59 +156,6 @@ ol {
 }
 
 
-.b-primary-btn {
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 16px 50px;
-  color: #ffffff;
-  position: relative;
-}
-.b-primary-btn.normal-btn {
-  color: var(--c-1);
-}
-.b-primary-btn.normal-btn:before {
-  border-color: var(--c-3);
-}
-.b-primary-btn.normal-btn:after {
-  border-color: var(--c-3);
-}
-.b-primary-btn:before {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 28px;
-  width: 28px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-  content: "";
-  border-radius: 0 0 0 4px;
-  transition: all, 0.5s;
-}
-.b-primary-btn:after {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 28px;
-  width: 28px;
-  border-right: 2px solid rgba(255, 255, 255, 0.2);
-  border-top: 2px solid rgba(255, 255, 255, 0.2);
-  content: "";
-  border-radius: 0 4px 0 0;
-  transition: all, 0.5s;
-}
-.b-primary-btn:hover:before {
-  height: 100%;
-  width: 100%;
-  border-radius: 4px;
-}
-.b-primary-btn:hover:after {
-  height: 100%;
-  width: 100%;
-  border-radius: 4px;
-}
-
-
 
 
 
@@ -221,17 +168,17 @@ ol {
   font-size: 16px;
   font-weight: 700;
   padding: 16px 50px;
-  color: #ffffff;
+  color:  red;
   position: relative;
 }
 .primary-btn.normal-btn {
   color: #111111;
 }
 .primary-btn.normal-btn:before {
-  border-color: #c4c4c4;
+  border-color:  red;
 }
 .primary-btn.normal-btn:after {
-  border-color: #c4c4c4;
+  border-color:  red;
 }
 .primary-btn:before {
   position: absolute;
@@ -239,8 +186,8 @@ ol {
   bottom: 0;
   height: 28px;
   width: 28px;
-  border-left: 2px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid  red;
+  border-bottom: 2px solid  red;
   content: "";
   border-radius: 0 0 0 4px;
   transition: all, 0.5s;
@@ -249,10 +196,11 @@ ol {
   position: absolute;
   right: 0;
   top: 0;
+  color:red;
   height: 28px;
   width: 28px;
-  border-right: 2px solid rgba(255, 255, 255, 0.2);
-  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  border-right: 2px solid red;
+  border-top: 2px solid  red;
   content: "";
   border-radius: 0 4px 0 0;
   transition: all, 0.5s;
@@ -532,6 +480,7 @@ text-decoration:none;
 a{
   text-decoration: none;
 }
+
 .hero__text h2 {
   color: #ffffff;
   font-size: 68px;
@@ -546,9 +495,9 @@ a{
 }
 .hero__text .primary-btn {
   position: relative;
-  top: 100px;
+  top: 100vh;
   font-family: "Lato", sans-serif;
-  opacity: 0;
+  opacity: 3;
   transition: all, 0.6s;
 }
 .hero__text .more_btn {
@@ -1053,7 +1002,7 @@ a{
   margin-bottom: 36px;
 }
 .callto__text .primary-btn {
-  background: #2caae2;;
+  background: red;
   color: #ffffff;
   border-radius: 4px;
 }
