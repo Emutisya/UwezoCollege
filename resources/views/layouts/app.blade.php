@@ -186,9 +186,9 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
     </div>
  --}}
 
-    <div id="preloder">
+    {{-- <div id="preloder">
         <div class="loader"></div>
-    </div>
+    </div> --}}
 
 
     <div class="offcanvas-menu-overlay"></div>

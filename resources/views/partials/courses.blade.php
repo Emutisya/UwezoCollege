@@ -1,4 +1,4 @@
- <div class="about-top row">
+ <div class="row justify-content-center">
 
      <div class="col-lg-3 col-md-4 col-sm-12 mt-4">
          <a href="/course1">
