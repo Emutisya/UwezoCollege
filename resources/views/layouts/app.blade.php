@@ -10,51 +10,41 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="Mentors Responsive Web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web template, 
 Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola Web design" />
-    <script type="application/x-javascript">
-        addEventListener("load", function () {
-            setTimeout(hideURLbar, 0);
-        }, false);
 
-        function hideURLbar() {
-            window.scrollTo(0, 1);
-        }
-
-    </script>
-    <!-- //Custom Theme files -->
-    {{-- <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" /> --}}
-    <!-- js -->
-    {{-- <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.js"> </script> --}}
-    <!-- //js -->
-    <!--fonts-->
     <link href='//fonts.googleapis.com/css?family=Julius+Sans+One' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
     <link rel="icon" href="/images/logo2.png" type="image/x-icon">
-    <!--/fonts-->
-    {{-- <link rel="stylesheet" href="{{ asset('css/elegant-icons.css')}}" type="text/css" />
-    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}" type="text/css" />
-    <link rel=<link rel="icon" href="/images/logo2.png" type="image/x-icon">"stylesheet"
-    href="{{ asset('css/slicknav.min.css') }}" type="text/css" /> --}}
-    <link rel="icon" href="/images/logo2.png" type="image/x-icon">
-
-    {{-- <link href="css/custom.css" rel="stylesheet" media="all"> --}}
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <!-- Css Styles -->
-    {{-- <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css')}}" type="text/css" /> --}}
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css" />
+    {{-- <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}" type="text/css" /> --}}
     <link rel="stylesheet" href="{{ asset('css/elegant-icons.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('css/slicknav.min.css') }}" type="text/css" />
     <link rel="stylesheet" href="{{ asset('css/slick.css') }}" type="text/css" />
-    {{-- <link rel="stylesheet" href="{{ asset('css/style.css') }}" type="text/css" /> --}}
+
 
     <!--fonts-->
-
     <link rel="stylesheet" href="{{asset('css/nav.css')}}">
 
+    {{-- foundation links --}}
+    <link rel="stylesheet" href="{{asset('foundation/css/animate.css')}}">
+    <link rel="stylesheet" href="{{asset('foundation/css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{asset('foundation/css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('foundation/css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{asset('foundation/css/magnific-popup.css')}}">
+
+    <link rel="stylesheet" href="{{asset('foundation/css/jquery.timepicker.css')}}">
+    <link rel="stylesheet" href="{{asset('foundation/css/flaticon.css')}}">
+
+    <link rel="stylesheet" href="{{asset('foundation/css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('foundation/css/magnific-popup.css')}}">
+
+
+
+    {{-- end Foundation --}}
     <style>
         .button {
             background-color: #6b3f98;
@@ -137,9 +127,6 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
             font-size: 17px;
         }
 
-
-
-
         .right-side-content {
             display: flex;
             align-items: center;
@@ -168,7 +155,7 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
         }
 
     </style>
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -176,27 +163,28 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
 
     {{-- <div span class="align-middle"> --}}
     {{-- <marquee style=" height=16px; color: #FF0000;">Click To Access E-learning</a> </marquee> --}}
-    {{-- <marquee direction="left">
+    {{-- <div class="topper align-items-center text-lg-right justify-content-end ">
+        <marquee direction="left">
             <a href="https://elearning.uwezocollege.ac.ke/" target="_blank">
                 <b style="height=20px; color: #FF0000; font-weight:bold; "> Click To Access E-learning</b>
             </a>
         </marquee>
 
 
-    </div>
- --}}
+    </div> --}}
+
 
     {{-- <div id="preloder">
         <div class="loader"></div>
     </div> --}}
 
 
-    <div class="offcanvas-menu-overlay"></div>
+    <div class=" offcanvas-menu-overlay">
+    </div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
             <a href="#">
-                <img width="60" height="60" class="ml-2" src="{{ asset('images/logo2.png') }}"
-                    alt="" /></a>
+                <img width="60" height="60" class="ml-2" src="{{ asset('images/logo2.png') }}" alt="" /></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__widget"></div>
@@ -219,12 +207,25 @@ Smartphone Compatible Web template, free Webdesigns for Nokia, Samsung, LG, Sony
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
-    {{-- <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script> --}}
-    {{-- <script src="{{ asset('js/bootstrap.min.js') }}"></script> --}}
+
     <script src="{{ asset('js/jquery.slicknav.js') }}"></script>
     <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
     <script src="{{ asset('js/slick.min.js') }}"></script>
     <script src="{{ asset('js/custom.js') }}"></script>
+    <script src="{{asset('foundation/js/popper.min.js')}}"></script>
+    <script src="{{asset('foundation/js/jquery.waypoints.min.js')}}"></script>
+    <script src="{{asset('foundation/js/jquery.stellar.min.js')}}"></script>
+    <script src="{{asset('foundation/js/scrollax.min.js')}}"></script>
+    <script type="application/x-javascript">
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
     <!--footer-->
 </body>
 

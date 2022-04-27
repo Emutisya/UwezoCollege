@@ -18,7 +18,7 @@
         <div class="col-md-6 col-sm-12 students-right wow fadeInRight animated" data-wow-delay=".5s">
             <div class="row">
                 <div class="col-6  my-2 history-grid-image">
-                    <img src="images/uu1.JPG" class="img-responsive zoom-img col-6  my-2" alt="">
+                    <img src="images/uu1.JPG" class="img-responsive zoom-img my-2" alt="">
                 </div>
                 <div class="col-6  my-2 history-grid-image"> <img src="images/gd2.jpeg" class="img-responsive zoom-img"
                         alt="">

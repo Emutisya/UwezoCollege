@@ -41,7 +41,7 @@
                 <span style="font-size:30px;color:#6b3f98;text-align:center; "> Areas of training</span>
 
             </div>
-            @include('partials.courses')
+            @include('partials.aboutcourses')
         </div>
     </div>
 </div>
