@@ -11549,6 +11549,10 @@ h5,
 
 }
 
+ul {
+    list-style: none;
+}
+
 .topper .icon {
     width: 35px;
     height: 35px;

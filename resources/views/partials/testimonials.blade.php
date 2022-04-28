@@ -1,5 +1,5 @@
 <!-- Team Section Begin -->
-<section class="team spad">
+<section class="">
     <div class=" row">
 
         <div class="section-title text-center">

@@ -1,21 +1,21 @@
 <head>
-    <title>Uwezo Foundation</title>
-    <meta charset="utf-8">
+    {{-- <title>Uwezo Foundation</title> --}}
+    {{-- <meta charset="utf-8"> --}}
 
 
 
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {{-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> --}}
 
-    <link rel="icon" href="/images/uwezologo1.png" type="image/x-icon">
+    {{-- <link rel="icon" href="/images/uwezologo1.png" type="image/x-icon"> --}}
 
 
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="keywords" content="Orphanage Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
+    {{-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> --}}
+    {{-- <meta name="keywords" content="Orphanage Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,  --}}
+{{-- Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" /> --}}
     {{-- <script type="application/x-javascript">
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);

@@ -4,7 +4,7 @@
             <div class="hero__text" style="margin-top:30vh">
                 <a href="{{ Route('about') }}" class="animated-btn">Apply Now</a>
                 {{-- <a href="{{ Route('about') }}" class="primary-btn">Apply Now</a> --}}
-                @include('partials.socials')
+                {{-- @include('partials.socials') --}}
             </div>
 
         </div>
@@ -12,21 +12,21 @@
             <div class="hero__text" style="margin-top:30vh">
                 <a href="{{ Route('about') }}" class="animated-btn">Apply Now</a>
                 {{-- <a href="{{ Route('about') }}" class="primary-btn">Apply Now</a> --}}
-                @include('partials.socials')
+                {{-- @include('partials.socials') --}}
             </div>
         </div>
         <div class="hero__items set-bg" data-setbg="images/picc.jpg" style="max-height: 100vh">
             <div class="hero__text" style="margin-top:30vh">
                 <a href="{{ Route('about') }}" class="animated-btn">Apply Now</a>
                 {{-- <a href="{{ Route('about') }}" class="primary-btn">Apply Now</a> --}}
-                @include('partials.socials')
+                {{-- @include('partials.socials') --}}
             </div>
         </div>
         <div class="hero__items set-bg" data-setbg="images/slide.jpg" style="max-height: 100vh">
             <div class="hero__text" style="margin-top:30vh">
                 <a href="{{ Route('about') }}" class="animated-btn">Apply Now</a>
                 {{-- <a href="{{ Route('about') }}" class="primary-btn">Apply Now</a> --}}
-                @include('partials.socials')
+                {{-- @include('partials.socials') --}}
             </div>
         </div>
 

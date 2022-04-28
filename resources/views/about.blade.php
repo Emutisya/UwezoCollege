@@ -3,7 +3,7 @@
 
 <div class="spacing about " style="">
 
-    <div class=" row about-container">
+    <div class="row about-container">
 
         <div class="section-title mt-5">
             <span style="color:  #6b3f98;font-size:30px;text-align:center; ">About Uwezo College</span>

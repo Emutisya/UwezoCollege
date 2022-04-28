@@ -1,5 +1,5 @@
- <div class="row justify-content-center">
-     <div class="about-top row">
+ <div class=" ">
+     <div class=" row ">
 
          <div class="col-md-3 abt-1">
              <div class="section-title">

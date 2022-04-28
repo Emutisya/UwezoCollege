@@ -1,11 +1,11 @@
 <!--footer-->
-<div class="footer" style="decoration:none;">
-    <div class="mx-4 row">
+<div class="footer" style="decoration:none; font-size: 0.7em">
+    <div class="spacing row">
         <div class="col-md-3  wow fadeInLeft animated" data-wow-delay=".5s">
             <h4>Get in touch!</h4>
-            <p style="   font-size: 0.8em;">Call 0713-554-972 / 0724-390-322</p>
-            <a style="   font-size: 0.8em;" href="mailto:info@uweocollege.co.ke">
-                <p style="color:#2caae2">mail: info@uwezocollege.co.ke</p>
+            <div style="   font-size: 1em;">Call 0713-554-972 / 0724-390-322</div>
+            <a style="   font-size: 1em;" href="mailto:info@uweocollege.co.ke">
+                <div style="color:#2caae2">mail: info@uwezocollege.co.ke</div>
             </a>
 
             <br><br>
@@ -23,9 +23,6 @@
             <ul>
                 <li><a href="https://elearning.uwezocollege.ac.ke/" target="_blank">E-learning</a></li>
                 <li><a href="http://uwezowetufoundation.org/" target="_blank">Uwezo Wetu Foundation </a></li>
-
-
-
             </ul>
         </div>
         <div class="col-md-3  wow fadeInLeft animated" data-wow-delay=".5s">

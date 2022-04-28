@@ -42,44 +42,53 @@
     <!--best-->
 
     <div class="mx-4 mt-5">
-        <div class="row best-left wow fadeInLeft animated" data-wow-delay=".5s">
-            <div class="section-title">
-                <span style="text-align: center;font-size:30px; color:       #6b3f98; ">Latest News</span>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 best-left wow fadeInLeft animated" data-wow-delay=".5s">
+                <div class="section-title">
+                    <span style="text-align: center;font-size:30px; color:       #6b3f98; ">Latest News</span>
 
-            </div>
-            <div class="bes-top col-lg-6 col-sm-12  mt-2">
-                <div class="bes-lft">
-                    <div class="history-grid-image">
-                        <img src="images/uprayer.jpg" class="img-responsive zoom-img" alt="">
+                </div>
+                <div class="bes-top  mt-2">
+                    <div class="bes-lft">
+                        <div class="history-grid-image">
+                            <img src="images/uprayer.jpg" class="img-responsive zoom-img" alt="">
+                        </div>
                     </div>
-                </div>
-                <div class="bes-rgt">
-                    <h4><a href="https://blog.uwezocollege.ac.ke/2022/02/10/321/">Thanking God for what Uwezo College
-                            has achieved so far</a></h4>
-                    <span> 2022/02/10</span>
-                    <p style="color:black">When you begin everything with God, everything works for you. We conducted
-                        our Term 1 Mass and Fr...</p>
-                </div>
+                    <div class="bes-rgt">
+                        <h4><a href="https://blog.uwezocollege.ac.ke/2022/02/10/321/">Thanking God for what Uwezo
+                                College
+                                has achieved so far</a></h4>
+                        <span> 2022/02/10</span>
+                        <p style="color:black">When you begin everything with God, everything works for you. We
+                            conducted
+                            our Term 1 Mass and Fr...</p>
+                    </div>
 
-            </div>
-            <div class="bes-top1 col-lg-6 col-sm-12 mt-2">
-                <div class="bes-lft">
-                    <div class="history-grid-image">
-                        <img src="images/uu5.JPG" class="img-responsive zoom-img" alt="">
+                </div>
+                <div class="bes-top1 mt-2">
+                    <div class="bes-lft">
+                        <div class="history-grid-image">
+                            <img src="images/uu5.JPG" class="img-responsive zoom-img" alt="">
+                        </div>
                     </div>
+                    <div class="bes-rgt">
+                        <h4><a href=https://blog.uwezocollege.ac.ke/2022/02/03/a-section-of-uwezo-college-hair-dressing-students-in-action/>A
+                                section of Uwezo College Hair Dressing students in action</a> </h4> <span>
+                                2022/02/03</span>
+                                <p style="color:black">Uwezo College situated in Machakos town is one of the best
+                                    technical
+                                    and business courses in Kenya duly registered with TVETA...</p>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="bes-rgt">
-                    <h4><a href=https://blog.uwezocollege.ac.ke/2022/02/03/a-section-of-uwezo-college-hair-dressing-students-in-action/>A
-                            section of Uwezo College Hair Dressing students in action</a> </h4> <span> 2022/02/03</span>
-                            <p style="color:black">Uwezo College situated in Machakos town is one of the best technical
-                                and business courses in Kenya duly registered with TVETA...</p>
-                </div>
-                <div class="clearfix"></div>
+            </div>
+            <div class="col-lg-6">
+                @include('partials.testimonials')
             </div>
         </div>
+
         <div>
 
-            @include('partials.testimonials')
 
         </div>
 
@@ -102,41 +111,53 @@
         </div>
         <div class="row ">
 
-            <div class="col-lg-6 col-md-6 col-sm-12">
-
-                <div class="team__item set-bg" data-setbg="images/uwezo5.jpeg">
-                    <div class="team__text">
-                        <div class="team__title">
-                            <h5>
-                                Holistic training
-                            </h5>
-
-                        </div>
-                        <p style="color:white">We aim to provide holistic training that would produce dependable
-                            professionals, strong in body, mind, spirit and character that will be agents of change in
-                            society.</p>
+            <div class=" row justify-content-center">
+                <div class="col-md-4 course-left wow fadeInLeft animated" data-wow-delay=".5s">
+                    <div class="section-title">
+                        <span>Why Join Us</span>
                     </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-12">
-
-                <div class="team__item set-bg" data-setbg="images/gd2.jpeg">
-                    <div class="team__text">
-                        <div class="team__title">
-                            <h5>Affordability & Scholarships</h5>
-
-                        </div>
-
-                        <p style="color:white">In addition to having an affordable fee structure, Uwezo college offers
-                            scholarships,
-                            students can apply though the <a href="http://uwezowetufoundation.org/">Uwezo Wetu
-                                Foundation </a>
-                            website.</p>
+                    <div class="history-grid-image">
+                        <img src="images/uwezo5.jpeg" class="img-responsive zoom-img" alt="">
                     </div>
+                    <p style="color:black;font-size:0.9rem">We aim to provide holistic training that
+                        would produce dependable professionals, strong in body, mind, spirit and
+                        character that will be agents of change in society.</p>
                 </div>
+                <div class="col-md-4 course-left animated wow fadeInUp animated animated" data-wow-duration="1200ms"
+                    data-wow-delay="500ms">
+                    <div class="section-title">
+                        <span>Affordability & Scholarships</span>
+                    </div>
 
+                    <div class="history-grid-image">
+                        <img src="images/gd2.jpeg" class="img-responsive zoom-img" alt="">
+                    </div>
+                    <p style="color:black;font-size:0.9rem">In addition to having an affordable fee structure, Uwezo
+                        college offers
+                        scholarships,
+                        students can apply though the <a href=" http://uwezowetufoundation.org/">Uwezo Wetu Foundation
+                        </a> website.</p>
+                </div>
+                <div class="col-lg-4 wow fadeInRight animated justify-content-center align-content-center "
+                    data-wow-delay=".5s">
+                    <div class="section-title px-4">
+                        <span>Our Core-Values</span>
+                    </div>
+                    {{-- <h3></h3> --}}
+                    <ul style="list-style: none" class="px-4">
+                        <li><a><span>&#8594 </span>Teamwork</a></li>
+                        <li><a><span>&#8594 </span>Integrity </a></li>
+                        <li><a><span>&#8594 </span>God centeredness</a></li>
+                        <li><a><span>&#8594 </span>Professionalism </a></li>
+                        <li><a><span>&#8594 </span>Hard work</a></li>
+                        <li><a><span>&#8594 </span>Discipline</a></li>
+                        <li><a><span>&#8594 </span>Mutual respect</a></li>
+
+                    </ul>
+                    <p>Apply through our elearning <a href="https://elearning.uwezocollege.ac.ke/">Uwezo College
+                            E-learning</a></p>
+
+                </div>
             </div>
 
 
