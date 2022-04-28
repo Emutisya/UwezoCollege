@@ -41,58 +41,56 @@
     <!--//students-->
     <!--best-->
 
-    <div class="mx-4 mt-5">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-sm-12 best-left wow fadeInLeft animated" data-wow-delay=".5s">
-                <div class="section-title">
-                    <span style="text-align: center;font-size:30px; color:       #6b3f98; ">Latest News</span>
 
-                </div>
-                <div class="bes-top  mt-2">
-                    <div class="bes-lft">
-                        <div class="history-grid-image">
-                            <img src="images/uprayer.jpg" class="img-responsive zoom-img" alt="">
-                        </div>
-                    </div>
-                    <div class="bes-rgt">
-                        <h4><a href="https://blog.uwezocollege.ac.ke/2022/02/10/321/">Thanking God for what Uwezo
-                                College
-                                has achieved so far</a></h4>
-                        <span> 2022/02/10</span>
-                        <p style="color:black">When you begin everything with God, everything works for you. We
-                            conducted
-                            our Term 1 Mass and Fr...</p>
-                    </div>
+    <div class="row mx-4 mt-5 mb-4">
+        <div style="font-size: 0.8rem" class="col-lg-4 col-md-12 col-sm-12 best-left wow fadeInLeft animated"
+            data-wow-delay=".5s">
+            <div class="section-title">
+                <span style="text-align: center;font-size:30px; color:       #6b3f98; ">Latest News</span>
 
-                </div>
-                <div class="bes-top1 mt-2">
-                    <div class="bes-lft">
-                        <div class="history-grid-image">
-                            <img src="images/uu5.JPG" class="img-responsive zoom-img" alt="">
-                        </div>
-                    </div>
-                    <div class="bes-rgt">
-                        <h4><a href=https://blog.uwezocollege.ac.ke/2022/02/03/a-section-of-uwezo-college-hair-dressing-students-in-action/>A
-                                section of Uwezo College Hair Dressing students in action</a> </h4> <span>
-                                2022/02/03</span>
-                                <p style="color:black">Uwezo College situated in Machakos town is one of the best
-                                    technical
-                                    and business courses in Kenya duly registered with TVETA...</p>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
             </div>
-            <div class="col-lg-6">
-                @include('partials.testimonials')
+            <div class="bes-top  mt-2">
+                <div class="bes-lft">
+                    <div class="history-grid-image">
+                        <img src="images/uprayer.jpg" class="img-responsive zoom-img" alt="">
+                    </div>
+                </div>
+                <div class="bes-rgt">
+                    <h6><a href="https://blog.uwezocollege.ac.ke/2022/02/10/321/">Thanking God for what Uwezo
+                            College
+                            has achieved so far</a></h6>
+                    <span> 2022/02/10</span>
+                    <p style="color:black">When you begin everything with God, everything works for you. We
+                        conducted
+                        our Term 1 Mass and Fr...</p>
+                </div>
+
+            </div>
+            <div class="bes-top1 mt-2">
+                <div class="bes-lft">
+                    <div class="history-grid-image">
+                        <img src="images/uu5.JPG" class="img-responsive zoom-img" alt="">
+                    </div>
+                </div>
+                <div class="bes-rgt">
+                    <h6><a href=https://blog.uwezocollege.ac.ke/2022/02/03/a-section-of-uwezo-college-hair-dressing-students-in-action/>A
+                            section of Uwezo College Hair Dressing students in action</a> </h6> <span>
+                            2022/02/03</span>
+                            <p style="color:black">Uwezo College situated in Machakos town is one of the best
+                                technical
+                                and business courses in Kenya duly registered with TVETA...</p>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-
-        <div>
-
-
+        <div style="font-size: 0.8rem" class="col-lg-8 col-md-12 col-sm-12 best-left wow fadeInLeft animated">
+            @include('partials.testimonials')
         </div>
-
     </div>
+
+
+
+
 
 
     <!--best-->

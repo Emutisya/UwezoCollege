@@ -15,7 +15,7 @@
     {{-- <meta name="viewport" content="width=device-width, initial-scale=1"> --}}
     {{-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> --}}
     {{-- <meta name="keywords" content="Orphanage Home Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,  --}}
-{{-- Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" /> --}}
+    {{-- Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" /> --}}
     {{-- <script type="application/x-javascript">
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -133,8 +133,9 @@
 </div>
 {{-- </div> --}}
 </div>
-<nav class="navbar navbar-expand-lg navbar-dark  ftco-navbar-light" id="ftco-navbar">
-    <div class="container d-flex align-items-center">
+<nav class="navbar navbar-expand-lg navbar-dark  ftco-navbar-light  justify-content-center "
+    style="background:#2caae2; padding:auto;margin:0px; " id="ftco-navbar">
+    <div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
             aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span> Menu
