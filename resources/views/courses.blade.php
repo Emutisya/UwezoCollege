@@ -14,5 +14,6 @@
     </div>
 </div>
 @include('partials.partners')
+<br><br>
 @endSection
 <!--//about-->

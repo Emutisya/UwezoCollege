@@ -148,7 +148,7 @@
 
          </a>
          <div class="history-grid-image">
-             <a href="/course6"> <img src="images/build.PNG" class="img-responsive zoom-img" alt=""></a>
+             <a href="/course6"> <img src="images/btc.jpg" class="img-responsive zoom-img" alt=""></a>
          </div>
          <a href="/course6">
              <P style="">Employ tools and materials appropriate to their purpose and function and

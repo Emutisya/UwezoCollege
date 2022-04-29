@@ -44,5 +44,5 @@
 
 
 @include('partials.partners')
-
+<br><br>
 @endSection
