@@ -96,18 +96,18 @@
     <!--best-->
     <!--course-->
 
+   <br><br>
     <!-- Team Section Begin -->
-    <section class="spacing mx-4">
+    <section class="spacing mx-4" style="background-color:#f1efef" >
         <div class=" row">
 
             <div class="section-title text-center">
-                <span style="text-align: center;font-size:30px; color:#6b3f98;">
-                   </span>
-
+                <span style="text-align: center;font-size:30px; color:#6b3f98;"> <br>
+                  Why Join Us </span>
             </div>
 
         </div>
-        <br>
+        
         <div class="row ">
 
             <div class=" row justify-content-center">
@@ -167,5 +167,8 @@
     <div class="mt-5">
         @include('partials.partners')
     </div>
+    
+    <br>
+    <br>
 </div>
 @endSection
