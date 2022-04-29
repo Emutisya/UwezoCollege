@@ -102,11 +102,12 @@
 
             <div class="section-title text-center">
                 <span style="text-align: center;font-size:30px; color:#6b3f98;">
-                    Why Join Us</span>
+                   </span>
 
             </div>
 
         </div>
+        <br>
         <div class="row ">
 
             <div class=" row justify-content-center">
