@@ -8,9 +8,9 @@
                 <span style="text-align: center;color:       #6b3f98;font-size:30px">About Us</span>
             </div>
 
-            <p style="color:black">Uwezo College is owned by Uwezo Kenya ltd, which is registered under the
+            <p style="color:black; font-size:16px">Uwezo College is owned by Uwezo Kenya ltd, which is registered under the
                 companies act. The college is registered with the ministry of education as a middle
-                level college – TVETA /PRIVATE/TVC/0015/2018
+                level college – TVETA /PRIVATE/TVC/0015/2018. 
                 The college offers various technical and business courses examined by KNEC,
                 KASNEB and NITA. It is located in Machakos town and draws students mainly
                 from Kenya students across the Country. </p>
