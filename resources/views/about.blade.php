@@ -5,17 +5,13 @@
 
     <div class="row about-container">
 
-        <div class="section-title mt-5">
-            <span style="color:  #6b3f98;font-size:30px;text-align:center; ">About Uwezo College</span>
-
-        </div>
         <div class="section-title mt-5 ">
             <span style="text-align: center;">UWEZO COLLEGE || BEYOND TRAINING</span>
 
         </div>
         <div class="col-md-6 about-left zlign-center ">
             <div class="history-grid-image ">
-                <img src="images/uwezo5.jpeg" class="img-responsive zoom-img  " alt="">
+                <img src="images/uwezo5.jpeg" class="img-responsive zoom-img  " width="800" height="400"alt="">
             </div>
         </div>
 
