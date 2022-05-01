@@ -68,14 +68,14 @@
 
 <div class="pt-4 pb-1 px-4">
     {{-- <div class="container"> --}}
-    <div class="row d-flex  align-items-center ">
-        <div class="col-md-3 d-flex mb-2 mb-md-0">
+    <div class="row d-flex  justify-content-center  ">
+        <div class="col-md-3 col-sm-12 d-flex mb-2 mb-md-0 justify-content-center">
             <a class="navbar-brand d-flex align-items-center" href="/main">
                 <img src="images/logo2.png">
                 <span class="ml-2">Uwezo <small>College</small></span>
             </a>
         </div>
-        <div class="col-md-3 d-flex topper mb-md-0 mb-2 justify-content-center">
+        <div class="col-md-3 col-sm-12 d-flex topper mb-md-0 mb-2 justify-content-center">
             <div class="icon  ">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path
@@ -90,9 +90,9 @@
 
             </div>
         </div>
-        <div class="col-md-3 d-flex topper mb-md-0 mb-2 justify-content-center">
+        <div class="col-md-3 col-sm-12 d-flex topper mb-md-0 mb-2 justify-content-center">
 
-            <div class="icon  ">
+            <div class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd"
                         d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"

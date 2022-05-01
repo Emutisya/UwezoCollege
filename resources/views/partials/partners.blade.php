@@ -6,7 +6,7 @@
 
     </div>
 
-    <div class="d-flex flex-wrap mx-2 px-4 justify-content-between justify-content-center align-content-center">
+    <div class="d-flex flex-wrap mx-2 px-4 justify-content-center">
 
         <img src="images/tve.png" width="150" height="150" alt="Snow">
 

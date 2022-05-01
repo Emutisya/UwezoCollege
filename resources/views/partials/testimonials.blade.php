@@ -1,5 +1,5 @@
 <!-- Team Section Begin -->
-<section class="">
+<div class="">
     <div class="">
 
         <div class="section-title text-center">
@@ -13,7 +13,7 @@
     </div>
     <div class="row" style="height: 20px">
         <div class="col-lg-4 col-md-6 col-sm-12 ">
-            <a href="/eric"><img src="images/eric.jpeg" class="img-responsive zoom-img" alt="">
+            <a href="/eric"><img src="images/eric.jpeg" class="img-responsive zoom-img" alt=""/>
                 <div class="section-title mt-2">
                     <span> Eric Kilonzo</span>
 
@@ -22,7 +22,7 @@
             </a>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 ">
-            <a href="/flora"><img src="images/flora1.jpeg" class="img-responsive zoom-img" alt="">
+            <a href="/flora"><img src="images/flora1.jpeg" class="img-responsive zoom-img" alt=""/>
                 <div class="section-title mt-2">
                     <span> Flora Mutuku</span>
 
@@ -31,7 +31,7 @@
             </a>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 ">
-            <a href="/caleb"><img src="images/eric.jpeg" class="img-responsive zoom-img" alt="">
+            <a href="/caleb"><img src="images/caleb.jpeg" class="img-responsive zoom-img" alt=""/>
                 <div class="section-title mt-2">
                     <span> Caleb Kimuyu</span>
 
@@ -88,5 +88,5 @@
             </a>
         </div> --}}
     </div>
-    </div>
-</section>
+
+</div>
