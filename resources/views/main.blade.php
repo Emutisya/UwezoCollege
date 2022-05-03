@@ -84,7 +84,7 @@
                 <div class="clearfix"></div>
             </div>
         </div>
-        <div>
+        <div style="font-size: 0.8rem" class="row col-lg-8 col-md-12 col-sm-12 best-left wow fadeInLeft animated">
             <div class="section-title text-center">
                 <span style="text-align: center;font-size:30px; color:       #6b3f98;">
                     Student Testimonials</span>
@@ -94,7 +94,7 @@
             </div>
 
 
-            <div style="font-size: 0.8rem" class="row col-lg-8 col-md-12 col-sm-12 best-left wow fadeInLeft animated">
+            <div class="row">
                 {{-- @include('partials.testimonials') --}}
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
                     <a href="/eric"><img src="images/eric.jpeg" class="img-responsive zoom-img" alt="" />
@@ -206,7 +206,7 @@
 
     </div>
 
-    <div class="mt-5 align-items-center">
+    <div class="mt-5 align-items-sm-center">
         @include('partials.partners')
     </div>
 
