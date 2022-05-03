@@ -6,19 +6,19 @@
 
     </div>
 
-    <div class="d-flex flex-wrap mx-2 px-4 justify-content-center">
+    <div class="d-flex flex-wrap  justify-content-center justify-content-between">
 
-        <img src="images/tve.png" width="150" height="150" alt="Snow">
+        <img src="images/tve.png" width="130" height="100" alt="Snow">
 
-        <img src="images/knec.jpg" width="150" height="150">
+        <img src="images/knec.jpg" width="130" height="100">
 
-        <img src="images/nita.png" width="150" height="150">
+        <img src="images/nita.png" width="130" height="100">
 
-        <img src="images/juccps.jpg" width="150" height="150" alt="Snow">
+        <img src="images/juccps.jpg" width="130" height="100" alt="Snow">
 
-        <img src="images/kasneb.jpg" width="150" height="150">
+        <img src="images/kasneb.jpg" width="130" height="100">
 
-        <img src="images/ky.PNG" width="150" height="150">
+        <img src="images/ky.PNG" width="130" height="100">
 
     </div>
 

@@ -137,9 +137,9 @@
     <!--best-->
     <!--course-->
 
-    <br><br>
+
     <!-- Team Section Begin -->
-    <div class="spacing mx-4 mt-sm-4 " style="background-color:#f1efef">
+    <div class="spacing  mt-sm-4 " style="background-color:#f1efef">
         <div class=" row">
 
             <div class="section-title text-center">
@@ -206,7 +206,7 @@
 
     </div>
 
-    <div class="mt-5 align-items-sm-center">
+    <div class=" align-items-sm-center">
         @include('partials.partners')
     </div>
 
