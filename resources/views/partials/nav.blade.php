@@ -117,7 +117,7 @@
                 <a href="https://web.facebook.com/uwezocollege?_rdc=1&_rdr"
                     class="d-flex align-items-center justify-content-center"><span class="fa fa-facebook"><i
                             class="sr-only">Facebook</i></span></a>
-                <a href="https://twitter.com/UwezoCollege_ac"
+                <a href="https://twitter.com/UwezoCollegeke?s=11&t=0PMchpvZS5tYq4gdInRxOQ"
                     class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"><i
                             class="sr-only">Twitter</i></span></a>
                 <a href="https://www.instagram.com/uwezo_wetu_foundation/"

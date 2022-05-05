@@ -8,7 +8,7 @@
             </div>
 
         </div>
-        <div class="hero__items set-bg" data-setbg="images/uu1.jpg" style="max-height: 70vh">
+        <div class="hero__items set-bg" data-setbg="images/uu1.JPG" style="max-height: 70vh">
             <div class="hero__text" style="margin-top:30vh">
                 <a href="https://elearning.uwezocollege.ac.ke/" target="_blank" class="animated-btn">Apply Now</a>
                 {{-- <a href="https://elearning.uwezocollege.ac.ke/" target="_blank" class="primary-btn">Apply Now</a> --}}
